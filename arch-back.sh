@@ -8,6 +8,8 @@ MAGENTA='\033[0;35m'
 CYAN='\033[0;36m'
 RESET='\033[0m'
 
+# Test commit
+
 # Print "Archive" in color
 echo -e "${RED}A${GREEN}r${YELLOW}c${BLUE}h${MAGENTA}i${CYAN}v${RED}e${RESET}"
 
