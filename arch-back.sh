@@ -15,13 +15,13 @@ echo -e "${RED}A${GREEN}r${YELLOW}c${BLUE}h${MAGENTA}i${CYAN}v${RED}e${RESET}"
 
 # Function for task 1
 function task1() {
-  echo "Backing up packages in the official repository ..."
+  echo "Backing up packages from the official repository ..."
   pacman -Qqen >pkglist-repo.txt
 }
 
 # Function for task 2
 function task2() {
-  echo "Backing up packages in the AUR ..."
+  echo "Backing up packages from the AUR ..."
   pacman -Qqem >pkglist-aur.txt
 }
 function task3() {
